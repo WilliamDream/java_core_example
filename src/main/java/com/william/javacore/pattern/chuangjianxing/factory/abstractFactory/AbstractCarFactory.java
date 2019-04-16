@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.factory.abstractFactory;
+package com.william.javacore.pattern.chuangjianxing.factory.abstractFactory;
 
 import com.william.javacore.pattern.factory.Car;
 

@@ -1,7 +1,12 @@
-package com.william.javacore.pattern.factory.factoryMethod;
+package com.william.javacore.pattern.chuangjianxing.factory.factoryMethod;
 
 import com.william.javacore.pattern.factory.Car;
 
+/**
+ * 
+ * 工厂方法测试
+ *
+ */
 public class Test {
 
 	public static void main(String[] args) {

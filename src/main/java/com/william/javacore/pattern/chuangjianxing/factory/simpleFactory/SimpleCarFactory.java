@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.factory.simpleFactory;
+package com.william.javacore.pattern.chuangjianxing.factory.simpleFactory;
 
 import com.william.javacore.pattern.factory.Audi;
 import com.william.javacore.pattern.factory.BMW;

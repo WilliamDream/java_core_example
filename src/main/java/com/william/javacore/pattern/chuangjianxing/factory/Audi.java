@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.factory;
+package com.william.javacore.pattern.chuangjianxing.factory;
 
 public class Audi implements Car{
 

@@ -1,17 +1,17 @@
-package com.william.javacore.pattern.factory;
+package com.william.javacore.pattern.chuangjianxing.factory;
 
-public class Benz implements Car{
+public class BMW implements Car{
 
 	private String name;
 	
 	
-	public Benz(String name) {
+	public BMW(String name) {
 		this.name = name;
 	}
 
 
 	public Car getCar() {
-		return new Benz("奔驰");
+		return new BMW("宝马");
 	}
 
 
