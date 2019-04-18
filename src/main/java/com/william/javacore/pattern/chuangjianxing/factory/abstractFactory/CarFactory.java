@@ -1,9 +1,9 @@
 package com.william.javacore.pattern.chuangjianxing.factory.abstractFactory;
 
-import com.william.javacore.pattern.factory.Audi;
-import com.william.javacore.pattern.factory.BMW;
-import com.william.javacore.pattern.factory.Benz;
-import com.william.javacore.pattern.factory.Car;
+import com.william.javacore.pattern.chuangjianxing.factory.Audi;
+import com.william.javacore.pattern.chuangjianxing.factory.BMW;
+import com.william.javacore.pattern.chuangjianxing.factory.Benz;
+import com.william.javacore.pattern.chuangjianxing.factory.Car;
 
 public class CarFactory extends AbstractCarFactory{
 

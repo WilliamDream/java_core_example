@@ -1,6 +1,6 @@
 package com.william.javacore.pattern.chuangjianxing.factory.abstractFactory;
 
-import com.william.javacore.pattern.factory.Car;
+import com.william.javacore.pattern.chuangjianxing.factory.Car;
 
 public abstract class AbstractCarFactory {
 

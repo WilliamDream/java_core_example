@@ -1,6 +1,6 @@
 package com.william.javacore.pattern.chuangjianxing.factory.simpleFactory;
 
-import com.william.javacore.pattern.factory.Car;
+import com.william.javacore.pattern.chuangjianxing.factory.Car;
 
 /**
  * 
