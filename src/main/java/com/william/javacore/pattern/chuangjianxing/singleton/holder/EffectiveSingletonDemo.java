@@ -3,7 +3,7 @@ package com.william.javacore.pattern.chuangjianxing.singleton.holder;
 
 /**
  * Holder模式实现单例，既希望利用饿汉模式中静态变量的方便和线程安全；又希望通过懒加载规避资源浪费。
- * 
+ * 核心是加入内部类
  *
  */
 public class EffectiveSingletonDemo {
