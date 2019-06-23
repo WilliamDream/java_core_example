@@ -14,7 +14,7 @@ public class HouseProxy implements InvocationHandler {
     //保存被代理对象的引用
     private Object target;
 
-    public Object getInstance(Object object) throws Exception {
+    public Object getInstance(Person object) throws Exception {
         this.target = object;
         Class<?> clazz = target.getClass();
         return Proxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);

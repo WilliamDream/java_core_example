@@ -13,12 +13,12 @@ public class JdkDynamicProxyTest {
 
     public static void main(String[] args) {
         try{
-            Person person = new Renter();
-            HouseProxy houseProxy = new HouseProxy();
-            Person p = (Person)houseProxy.getInstance(person);
-            p.findHouse();
 
+            Person obj = (Person)new HouseProxy().getInstance(new Renter());
+            System.out.println(obj.getClass());
+            obj.findHouse();
 
+            //把动态代理生成的对象写入磁盘文件
             byte [] bytes = ProxyGenerator.generateProxyClass("$proxy0",new Class[]{Person.class});
             FileOutputStream os = new FileOutputStream("D://$proxy0.class");
             os.write(bytes);

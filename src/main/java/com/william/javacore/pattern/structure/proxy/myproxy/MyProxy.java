@@ -56,7 +56,12 @@ public class MyProxy {
         return null;
     }
 
-
+    /**
+       * @Description
+       * @param interfaces
+       * @return java.lang.String
+       * @Date 2017/6/23 10:55
+       */
     private static String generateCode(Class<?>[] interfaces){
 
         //生成动态代理产生的类$proxy0的代码
@@ -84,12 +89,7 @@ public class MyProxy {
         }
         sb.append("}" + ln);
 
-
-
-
         return sb.toString();
     }
-
-
 
 }
