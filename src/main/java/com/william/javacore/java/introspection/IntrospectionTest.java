@@ -3,7 +3,7 @@ package com.william.javacore.java.introspection;
 import java.beans.*;
 
 /**
- * @Auther: chaiz
+ * @Auther: williamdream
  * @Date: 2018/5/30 21:21
  * @Description: Introspection内省测试
  */
