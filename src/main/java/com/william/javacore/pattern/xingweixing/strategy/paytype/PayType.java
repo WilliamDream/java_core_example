@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.strategy.paytype;
+package com.william.javacore.pattern.xingweixing.strategy.paytype;
 
 public enum PayType {
 

@@ -1,6 +1,6 @@
-package com.william.javacore.pattern.strategy;
+package com.william.javacore.pattern.xingweixing.strategy;
 
-import com.william.javacore.pattern.strategy.paytype.PayType;
+import com.william.javacore.pattern.xingweixing.strategy.paytype.PayType;
 
 public class PayTest {
 

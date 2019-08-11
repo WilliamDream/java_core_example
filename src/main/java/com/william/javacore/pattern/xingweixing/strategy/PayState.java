@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.strategy;
+package com.william.javacore.pattern.xingweixing.strategy;
 
 public class PayState {
     private int code;
