@@ -1,6 +1,6 @@
-package com.william.javacore.pattern.strategy;
+package com.william.javacore.pattern.xingweixing.strategy;
 
-import com.william.javacore.pattern.strategy.paytype.PayType;
+import com.william.javacore.pattern.xingweixing.strategy.paytype.PayType;
 
 public class Order {
 
@@ -14,14 +14,10 @@ public class Order {
         this.amount = amount;
     }
 
-
-    //这个参数，完全可以用Payment这个接口来代替
-    //为什么？
-
-    //完美地解决了switch的过程，不需要在代码逻辑中写switch了
-    //更不需要写if    else if
+    //payType这个参数，完全可以用Payment这个接口来代替
+    //那么需要将Payment作为一个成员变量，然后在有参构造函数中对Payment进行复制
     public PayState pay(PayType payType){
         return payType.get().pay(this.uid,this.amount);
     }
-	
+
 }

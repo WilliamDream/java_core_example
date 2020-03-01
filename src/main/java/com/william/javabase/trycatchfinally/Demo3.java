@@ -16,7 +16,8 @@ public class Demo3 {
 		System.out.println(getString1());
 		System.out.println("------------getString2---------");
 		System.out.println(getString2());
-		
+		System.out.println("------------getString3---------");
+		System.out.println(getString3());
 	}
 	/*public static String getString() {
 		String str = "hello";
@@ -59,6 +60,20 @@ public class Demo3 {
 			return str = "hi";
 		}
 	}
-	
+
+	public static String getString3() {
+		String str = "hello";
+		try {
+			int a = 1/0;
+			return str;
+		} catch (Exception e) {
+			System.out.println("执行catch");
+			str = "error";
+		}finally {
+			System.out.println("执行finally");
+			str = "hi";
+		}
+		return str;
+	}
 	
 }

@@ -1,6 +1,6 @@
-package com.william.javacore.pattern.strategy.paytype;
+package com.william.javacore.pattern.xingweixing.strategy.paytype;
 
-import com.william.javacore.pattern.strategy.PayState;
+import com.william.javacore.pattern.xingweixing.strategy.PayState;
 
 public class JDPay implements Payment {
 

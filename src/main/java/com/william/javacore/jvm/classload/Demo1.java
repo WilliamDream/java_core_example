@@ -1,4 +1,4 @@
-package com.william.javacore.classload;
+package com.william.javacore.jvm.classload;
 
 public class Demo1 {
 

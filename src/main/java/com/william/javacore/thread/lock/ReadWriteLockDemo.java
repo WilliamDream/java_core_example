@@ -18,7 +18,7 @@ public class ReadWriteLockDemo {
 	
 	/* 读-读 线程不阻塞
 	 * 读/写锁 线程阻塞
-	 * 读写锁在读锁写少的场景下，提示系统并发性能
+	 * 读写锁在读多写少的场景下，提示系统并发性能
 	 */
 	public static final Object get(String key) {
 		read.lock();
