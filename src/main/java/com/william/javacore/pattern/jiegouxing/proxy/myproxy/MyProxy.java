@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.structure.proxy.myproxy;
+package com.william.javacore.pattern.jiegouxing.proxy.myproxy;
 
 import javax.tools.JavaCompiler;
 import javax.tools.StandardJavaFileManager;
@@ -6,7 +6,6 @@ import javax.tools.ToolProvider;
 import java.io.File;
 import java.io.FileWriter;
 import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
@@ -66,8 +65,8 @@ public class MyProxy {
 
         //生成动态代理产生的类$proxy0的代码
         StringBuffer sb = new StringBuffer();
-        sb.append("package com.william.javacore.pattern.structure.proxy.myproxy;" + ln);
-        sb.append("import com.william.javacore.pattern.structure.proxy.jdk.Person;" + ln);
+        sb.append("package com.william.javacore.pattern.jiegouxing.proxy.myproxy;" + ln);
+        sb.append("import com.william.javacore.pattern.jiegouxing.proxy.jdk.Person;" + ln);
         sb.append("import java.lang.reflect.*;" + ln);
 
         sb.append("public class $Proxy0 implements " + interfaces[0].getSimpleName() + "{" + ln);

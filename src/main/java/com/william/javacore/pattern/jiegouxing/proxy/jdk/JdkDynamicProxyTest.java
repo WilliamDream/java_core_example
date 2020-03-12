@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.structure.proxy.jdk;
+package com.william.javacore.pattern.jiegouxing.proxy.jdk;
 
 import sun.misc.ProxyGenerator;
 

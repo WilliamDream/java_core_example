@@ -1,11 +1,7 @@
-package com.william.javacore.pattern.structure.proxy.myproxy;
+package com.william.javacore.pattern.jiegouxing.proxy.myproxy;
 
-import com.william.javacore.pattern.structure.proxy.jdk.HouseProxy;
-import com.william.javacore.pattern.structure.proxy.jdk.Person;
-import com.william.javacore.pattern.structure.proxy.jdk.Renter;
-import sun.misc.ProxyGenerator;
-
-import java.io.FileOutputStream;
+import com.william.javacore.pattern.jiegouxing.proxy.jdk.Person;
+import com.william.javacore.pattern.jiegouxing.proxy.jdk.Renter;
 
 /**
  * @Author: WilliamDream

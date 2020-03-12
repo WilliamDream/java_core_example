@@ -1,16 +1,15 @@
-package com.william.javacore.pattern.structure.proxy.myproxy;
+package com.william.javacore.pattern.jiegouxing.proxy.jdk;
 
-import com.william.javacore.pattern.structure.proxy.jdk.Person;
-
+import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
 /**
  * @Author: WilliamDream
  * @Description:
- * @Date: 2017/6/22 22:08
+ * @Date: 2017/6/22 15:50
  */
-public class MyHouseProxy implements MyInvocationHandler{
+public class HouseProxy implements InvocationHandler {
 
     //保存被代理对象的引用
     private Object target;
@@ -18,7 +17,7 @@ public class MyHouseProxy implements MyInvocationHandler{
     public Object getInstance(Person object) throws Exception {
         this.target = object;
         Class<?> clazz = target.getClass();
-        return MyProxy.newProxyInstance(new MyClassLoader(),clazz.getInterfaces(),this);
+        return Proxy.newProxyInstance(clazz.getClassLoader(),clazz.getInterfaces(),this);
     }
 
     public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {

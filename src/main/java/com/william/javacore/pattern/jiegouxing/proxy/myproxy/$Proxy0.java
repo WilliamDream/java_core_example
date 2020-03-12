@@ -1,5 +1,5 @@
-package com.william.javacore.pattern.structure.proxy.myproxy;
-import com.william.javacore.pattern.structure.proxy.jdk.Person;
+package com.william.javacore.pattern.jiegouxing.proxy.myproxy;
+import com.william.javacore.pattern.jiegouxing.proxy.jdk.Person;
 import java.lang.reflect.*;
 
 /**

@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.structure.proxy.myproxy;
+package com.william.javacore.pattern.jiegouxing.proxy.myproxy;
 
 import java.lang.reflect.Method;
 

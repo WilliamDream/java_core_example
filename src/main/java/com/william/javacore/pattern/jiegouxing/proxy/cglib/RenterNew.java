@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.structure.proxy.cglib;
+package com.william.javacore.pattern.jiegouxing.proxy.cglib;
 
 /**
  * @Author: WilliamDream
