@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.template;
+package com.william.javacore.pattern.xingweixing.template.v2;
 
 public class Member {
 

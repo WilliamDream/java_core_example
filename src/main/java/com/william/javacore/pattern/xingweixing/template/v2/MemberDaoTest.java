@@ -1,6 +1,7 @@
-package com.william.javacore.pattern.template;
+package com.william.javacore.pattern.xingweixing.template.v2;
 
-import com.william.javacore.pattern.template.dao.MemberDao;
+
+import com.william.javacore.pattern.xingweixing.template.v2.dao.MemberDao;
 
 public class MemberDaoTest {
 

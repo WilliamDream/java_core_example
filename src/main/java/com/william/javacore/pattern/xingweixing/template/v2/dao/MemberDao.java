@@ -1,15 +1,13 @@
-package com.william.javacore.pattern.template.dao;
+package com.william.javacore.pattern.xingweixing.template.v2.dao;
+
+import com.william.javacore.pattern.xingweixing.template.v2.JdbcTemplate;
+import com.william.javacore.pattern.xingweixing.template.v2.Member;
+import com.william.javacore.pattern.xingweixing.template.v2.RowMapper;
 
 import java.sql.ResultSet;
 import java.util.List;
 
-import javax.sql.DataSource;
-
-import com.william.javacore.pattern.template.JdbcTemplate;
-import com.william.javacore.pattern.template.Member;
-import com.william.javacore.pattern.template.RowMapper;
-
-public class MemberDao{
+public class MemberDao {
 
 	private JdbcTemplate jdbc = new JdbcTemplate(null);
 	
