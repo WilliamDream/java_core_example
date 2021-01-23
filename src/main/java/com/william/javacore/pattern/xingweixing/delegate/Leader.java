@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.delegate;
+package com.william.javacore.pattern.xingweixing.delegate;
 
 import java.util.HashMap;
 import java.util.Map;

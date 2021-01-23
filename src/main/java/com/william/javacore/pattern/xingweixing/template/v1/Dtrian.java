@@ -11,7 +11,6 @@ public class Dtrian extends AbstractTrain {
 
     @Override
     protected boolean needPickUpTicket() {
-        System.out.println("子类2");
         return this.needPickUpTicket;
     }
 

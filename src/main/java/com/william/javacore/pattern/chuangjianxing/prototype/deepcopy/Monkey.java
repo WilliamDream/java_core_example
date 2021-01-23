@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.prototype.deepcopy;
+package com.william.javacore.pattern.chuangjianxing.prototype.deepcopy;
 
 import java.util.Date;
 

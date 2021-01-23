@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.prototype.shallowcopy;
+package com.william.javacore.pattern.chuangjianxing.prototype.shallowcopy;
 
 import java.util.ArrayList;
 import java.util.List;

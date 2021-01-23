@@ -1,4 +1,4 @@
-package com.william.javacore.pattern.decorator;
+package com.william.javacore.pattern.jiegouxing.decorator;
 
 /**
  * @Author: WilliamDream

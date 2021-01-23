@@ -16,6 +16,6 @@ public class Gtrain extends AbstractTrain{
 
     @Override
     public void pickUpTicket() {
-        System.out.println("2、使用身份证取票");
+        System.out.println("2、不需要取票");
     }
 }
