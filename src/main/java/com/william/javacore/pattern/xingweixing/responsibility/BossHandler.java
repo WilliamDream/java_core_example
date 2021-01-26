@@ -1,7 +1,7 @@
 package com.william.javacore.pattern.xingweixing.responsibility;
 
 /**
- * @author chaizheng chaizheng@3vjia.com
+ * @author williamdream
  * @since 2021-01-25 17:28
  */
 public class BossHandler extends Handler{

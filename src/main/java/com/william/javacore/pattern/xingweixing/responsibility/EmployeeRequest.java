@@ -1,7 +1,7 @@
 package com.william.javacore.pattern.xingweixing.responsibility;
 
 /**
- * @author chaizheng chaizheng@3vjia.com
+ * @author williamdream
  * @since 2021-01-26 09:34
  */
 public class EmployeeRequest {

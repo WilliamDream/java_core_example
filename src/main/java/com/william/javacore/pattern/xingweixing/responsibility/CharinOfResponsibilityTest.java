@@ -2,7 +2,7 @@ package com.william.javacore.pattern.xingweixing.responsibility;
 
 /**
  * 责任链模式
- * @author chaizheng chaizheng@3vjia.com
+ * @author williamdream
  * @since 2021-01-25 18:12
  */
 public class CharinOfResponsibilityTest {
