@@ -54,7 +54,9 @@ public class SynchronizedDemo1 {
         }
     }
 
-
+    /**
+     * 能不能锁住的关键就是synchronized后面括号内的对象是否是在内存唯一的
+     */
     public void testSynchronized(){
 //        synchronized (SynchronizedDemo1.class) { //能，类锁就是全局锁，会锁住所有的类对象
 //        synchronized (this) { //不能，当前对象的实例锁，只能锁住当前对象
